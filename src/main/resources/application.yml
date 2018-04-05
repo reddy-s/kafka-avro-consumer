@@ -1,0 +1,30 @@
+# Kafka settings
+kafka:
+  topic: Tweets
+  consumer:
+    group-id: tweet-reader
+  bootstrap:
+    servers: localhost:9092
+
+# Schema registry settings
+schema:
+  registry:
+    url: http://localhost:8081
+
+# Server settings
+server:
+  port: 10002
+
+# Application settings
+info:
+  app:
+    name: Kafka Consumer Application (Stateless stream processing)
+    description: Read messages from kafka using avro desrialization, transform and persist messages
+    version: 1.0.0
+
+# Actuator settings
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,health,metrics,beans

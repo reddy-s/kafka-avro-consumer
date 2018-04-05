@@ -1,0 +1,12 @@
+{
+  "name": "TweetStructure",
+  "type": "record",
+  "fields": [
+    {"name": "version", "type": "int"},
+    {"name": "id",  "type": "long"},
+    {"name": "text", "type": "string"},
+    {"name": "lang", "type": "string"},
+    {"name": "isRetweet", "type": "boolean"},
+    {"name": "tweetedOn", "type": "string", "default": "null"}
+  ]
+}

@@ -1,0 +1,12 @@
+${AnsiColor.MAGENTA}  _______  _______  _        _______           _______  _______  _______
+${AnsiColor.MAGENTA} (  ____ \(  ___  )( (    /|(  ____ \|\     /|(       )(  ____ \(  ____ )
+${AnsiColor.MAGENTA} | (    \/| (   ) ||  \  ( || (    \/| )   ( || () () || (    \/| (    )|
+${AnsiColor.MAGENTA} | |      | |   | ||   \ | || (_____ | |   | || || || || (__    | (____)|
+${AnsiColor.MAGENTA} | |      | |   | || (\ \) |(_____  )| |   | || |(_)| ||  __)   |     __)
+${AnsiColor.MAGENTA} | |      | |   | || | \   |      ) || |   | || |   | || (      | (\ (
+${AnsiColor.MAGENTA} | (____/\| (___) || )  \  |/\____) || (___) || )   ( || (____/\| ) \ \__
+${AnsiColor.MAGENTA} (_______/(_______)|/    )_)\_______)(_______)|/     \|(_______/|/   \__/
+
+${AnsiColor.BRIGHT_BLUE} ${info.app.name} :: ${AnsiColor.BRIGHT_CYAN} Running Spring Boot ${spring-boot.version}
+${AnsiColor.BRIGHT_BLUE} Description :: ${AnsiColor.BRIGHT_CYAN} ${info.app.description}
+${AnsiColor.BRIGHT_BLUE} Topic being read :: ${AnsiColor.BRIGHT_CYAN} ${kafka.topic}
