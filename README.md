@@ -1,6 +1,6 @@
 # Kafka Avro Message Consumer
 
-This application is used to read messages from Kafka which was produced by a producer registering the schema in a [schema registry](). The messages read can be evolved gracefully uing the schema registry and in this case used `BACKWARD` compatibility
+This application is used to read messages from Kafka which was produced by a producer registering the schema in a [schema registry](). The messages read can be evolved gracefully uing the schema registry and in this case used `BACKWARD` compatibility. Also, this application can be used as an example for a stateless stream processing job which would involve processing one event at a time or filtering though a stream of events.
 
 This application follows a [12-Factor App]() methodology.
 
