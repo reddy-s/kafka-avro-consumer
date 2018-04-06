@@ -108,7 +108,7 @@ curl -X GET \
   -H 'Cache-Control: no-cache' 
 ```
 
-## Adding new schemas to read
+## Adding new schemas to read - Schema Evolution
 
 This application implements an [Abstract Factory Pattern]() which makes it easy to add new schemas.
 
